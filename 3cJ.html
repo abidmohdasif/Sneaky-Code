@@ -1,0 +1,14 @@
+<script>
+const string = prompt("Enter a string: ");
+function vowelCount(s) {
+    const vowels = ["a", "e", "i", "o", "u"];
+    let count = 0;
+    for (let i of s) {
+        if (vowels.includes(i)) {
+            count += 1;
+        }
+    }
+    return count;
+}
+console.log(vowelCount(string));
+</script>
