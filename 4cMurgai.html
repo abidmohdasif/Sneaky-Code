@@ -1,0 +1,10 @@
+<script>
+    let lst = [12,22,32,42,52,62,72,82,92,10]
+    let x = 0
+    for (let i = 0; i < lst.length; i++){
+        if (lst[i] > x){
+            x = lst[i] // I had to change the condition from lst[i + 1] to lst[i] because it was just printing the last element of the list
+        }
+    }
+    console.log(x)
+</script>
